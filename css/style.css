@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/fondo.png) center no-repeat;
+}
+header{
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+#inicio .container{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    position: relative;
+}
+#inicio .container img{
+    position: relative;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+#inicio .container p{
+    color: #132a5a;
+    padding-left: 83px;
+    font-size: 21px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#inicio .container h2{
+    color: #ffffff;
+    padding-left: 85px;
+    padding-top: 20px;
+    font-size: 30px;
+    position: relative;
+}
+#inicio .container h2::before{
+    position: relative;
+    content: "";
+    width: 32%;
+    height: 3px;
+    background: #aab5db;
+    left: 86px;
+    bottom: -13px;
+}
+#inicio .col-md-6{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+#inicio .row2 .modal-content .boton1 button{
+    background-color: #3a5999;
+    position: relative;
+    padding: 8px 15px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+#inicio .row{
+    padding-bottom: 30px;
+}
+#inicio .row2 .modal-content .boton2 button{
+    background-color: #43b829;
+    float: inline-end;
+    color: #ffffff;
+    padding: 4px 8px;
+    color: #ffffff;
+}
+#inicio .row2{
+    width: 100%;
+    position: relative;
+    padding-left: 650px;
+    margin-top: -650px;
+}
+.user-img img{
+    margin-left: -70px;
+    margin-bottom: 20px;
+}
+.modal-content{
+    background-color: #ffffff;
+    border: 0cm;
+    padding-bottom: 30px;
+    padding: 30px 0px;
+}
+.form-group .material-icons{
+    position: absolute;
+    left: 20px;
+    font-size: 22px;
+    padding-top: 8px;
+    color: gray;
+}
+.form-group input{
+    height: 42px;
+    font-size: 15px;
+    padding-left: 40px;
+    border-radius: 5px;
+}

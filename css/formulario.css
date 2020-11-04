@@ -1,0 +1,35 @@
+body{
+    background: url(../img/fondo.png) center no-repeat;
+}
+header{
+    padding-top: 30px;
+}
+.content{
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 80px 460px;
+}
+.row .col{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.content button{
+    background-color: #43b829;
+    float: inline-end;
+    color: #ffffff;
+    padding: 8px 15px;
+    color: #ffffff;
+    margin: 10px 10px;
+}
+.content h6{
+    font-size: 20px;
+    color: #3a5999;
+}
+.content .genero{
+    padding: 5px 10px;
+}
+.content .fecha{
+    padding: 5px 10px;
+}
